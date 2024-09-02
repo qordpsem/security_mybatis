@@ -33,7 +33,7 @@ public class DBManager {
     public static MemberVO findById(String id)  {
         MemberVO m = null;
         SqlSession session = sqlSessionFactory.openSession();
-        session.selectOne("member.findById", id);
+        m = session.selectOne("member.findById", id);
         session.close();
         return m;
     }
