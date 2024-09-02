@@ -7,8 +7,9 @@
 
 https://mybatis.org/mybatis-3/getting-started.html 참조
 
-----------------------------------------------------------------------------------------
+<br>
+<br>
 
-#security 환경설정
-springboot 3.3.3 은 WebSecurityConfigurerAdapter 지원하지 않기 때문에 2.7.0 으로 변경
-mybatis는 3.0.1 버전 으로 변경
+## security 환경설정 <br>
+springboot 3.3.3은 WebSecurityConfigurerAdapter 지원하지 않기 때문에 2.7.0 으로 변경 <br>
+mybatis는 3.0.1 버전으로 변경
