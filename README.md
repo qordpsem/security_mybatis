@@ -13,3 +13,7 @@ https://mybatis.org/mybatis-3/getting-started.html 참조
 ## security 환경설정 <br>
 springboot 3.3.3은 WebSecurityConfigurerAdapter 지원하지 않기 때문에 2.7.0 으로 변경 <br>
 mybatis는 3.0.1 버전으로 변경
+<br>
+<br>
+java: java.lang.NoSuchFieldError -> JDK21 이상이라 롬복 지원 안돼서 나는 오류 <br>
+JDK 17 로 변경
