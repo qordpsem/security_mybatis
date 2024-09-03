@@ -5,7 +5,8 @@
     <title>Insert title here</title>
 </head>
 <body>
-<%@ include file="/header.jsp"%>
+${id }님 로그인하였습니다.
+<a href="logout">로그아웃</a>
 <h2>도서목록</h2>
 <hr>
 </body>
